@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub Wiki Menu Opener",
+  "description": "GitHub Wiki Menu Opener",
+  "version": "1.0",
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/wiki*"],
+      "css": [],
+      "js": ["js/main.js"]
+    }
+  ]
+}
